@@ -7,3 +7,7 @@ Leia os códigos em C da calculadora v1, v2 e v3 em sequência, e perceba a evol
 # Instruções Pedra, Papel, Tesoura
 
 **TAREFA**: Finalize a implementação do jogo Pedra/Papel/Tesoura. A função 'main' não deve ser modificada, você deve implementar a parte interna dos métodos já planejados.
+
+**Extra**: Inclua um loop para o usuário poder jogar várias rodadas em sequência.
+
+**Extra 2**: Inclua um placar geral que é mostrado após cada rodada.
