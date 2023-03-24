@@ -14,7 +14,6 @@ public class PedraPapelTesoura {
 		int jogadaUsuario = recebeJogadaUsuario();
 		int jogadaCpu = geraJogadaCpu();
 		int resultado = executaJogada(jogadaUsuario, jogadaCpu);
-		System.out.println("cpu = " + jogadaCpu);
 		exibeResultado(jogadaUsuario, jogadaCpu, resultado);
 	}
 	
