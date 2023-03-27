@@ -28,6 +28,8 @@ básicas de uma conta bancária.
 ![Diagrama UML](contabancaria.png)
 ## Exemplo de execução 
 
+**TAREFA**: Implementar uma classe Conta que atenda os requisitos, conforme o diagrama e o código de teste abaixo.
+
 ```java
 public class Runner {
 
