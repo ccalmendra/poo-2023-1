@@ -6,7 +6,7 @@ Arquivos de apoio às atividades de sala, complementar ao material disponível n
 
 Importante: o material neste repositório não substitui a leitura do material no SIGAA e a participação nas aulas.
 
-Para quase todo tópico de aula, haverá um arquivo "\<nome_do_topico\>.md" na pasta [aulas](aulas/). Nessas páginas você irá encontrar links e 
+Para quase todo tópico de aula, haverá um arquivo "README.md" na pasta correspondente. Nessas páginas você irá encontrar links e 
 referências para as atividades práticas relacionadas com o tópico.
 
 As demais pastas do repositório contém códigos de exemplos e exercícios. Um mesmo exemplo de código pode ser 
