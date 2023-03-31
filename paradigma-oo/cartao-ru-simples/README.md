@@ -53,14 +53,14 @@ public class Runner {
         }
 
         meuCartao.recarregar(2.00);
-        Boolean resultado = meuCartao.fazerRefeicao();
+        resultado = meuCartao.fazerRefeicao();
         if(resultado){
           System.out.println("esperado - Refeição liberada. Saldo restante = 0.90, atual = " + meuCartao.emitirSaldo());
         } else {
           System.out.println("erro - Refeição recusada. Saldo atual = " + meuCartao.emitirSaldo());
         }
 
-        Boolean resultado = meuCartao.fazerRefeicao();
+        resultado = meuCartao.fazerRefeicao();
         if(resultado){
           System.out.println("erro - Refeição liberada. Saldo restante = " + meuCartao.emitirSaldo());
         } else {
