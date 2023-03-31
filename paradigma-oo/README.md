@@ -26,6 +26,12 @@ básicas de uma conta bancária.
 
 ## Diagrama
 ![Diagrama UML](contabancaria.png)
+
+
+## Criando sua primeira classe em Java 
+
+Veja as seções 4.2 a 4.6 da Apostila de Java da Alura (https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf)
+
 ## Exemplo de execução 
 
 **TAREFA**: Implementar uma classe Conta que atenda os requisitos, conforme o diagrama e o código de teste abaixo.
