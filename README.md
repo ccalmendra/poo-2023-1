@@ -18,15 +18,20 @@ usado para em vários tópicos, com diferentes propósitos.
 
     - Essa é uma disciplina de programação, você precisa praticar usando um editor de textos e o compilador/interpretador da linguagem.
     
-    - Se não tiver um computador pessoal disponível, considere usar serviços como [Replit](https://replit.com/) 
-em complementação aos estudos nos laboratórios da universidade.
+    - Se não tiver um computador pessoal disponível, considere usar um compilador online como:
+        - [Replit](https://replit.com/) 
+        - [GDB Online](https://www.onlinegdb.com)
 
 2. Sobre arquivos de estudo
 
-    - Estabeleça um local na nuvem para ser o seu porta-arquivos. Pode ser um repositório git, uma conta no repl.it, google drive, dropbox. 
-O mais importante é que seja algo que você possa facilmente abrir/modificar em qualquer lugar (especialmente, nos labs da universidade).
-    
-    - Um pendrive também funciona, mas cuide para fazer cópias regularmente pois se perdê-lo o prejuízo é grande.
+    - Estabeleça um local na nuvem para ser o seu porta-arquivos
+        - Pode ser um repositório git
+        - Repl.it  Online GDB também servem para armazenamento
+        - Google drive, dropbox ou outro serviços de hospedagem
+        
+    - O mais importante é que seja algo que você possa FACILMENTE abrir/modificar em qualquer lugar (especialmente, nos labs da universidade).
+            
+    - Pendrive também funciona, mas cuide para fazer cópias regularmente pois se perdê-lo o prejuízo é grande
     
     - Quando estiver resolvendo exercícios SEMPRE faça uma nova cópia do exemplo original, 
 ou faça uma cópia de uma resposta sua anterior. NUNCA sobreescreva arquivos com exercícios anteriores resolvidos, para você não perder o seu histórico.
