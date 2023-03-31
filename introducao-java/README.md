@@ -237,3 +237,6 @@ public class Programa14 {
 }
 ```
 
+## Criando sua primeira classe em Java 
+
+Veja as seções 4.2 a 4.6 da Apostila de Java da Alura (https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf)
