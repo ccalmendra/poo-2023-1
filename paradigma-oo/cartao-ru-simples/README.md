@@ -70,12 +70,20 @@ public class Runner {
         CartaoRU meuCartao2 = new CartaoRU("002", "654321", true);
         
         meuCartao2.recarregar(1.10);
-        meuCartao2.alterarIsencao(false);
+        
         Boolean resultado = meuCartao2.fazerRefeicao();
         if(resultado){
           System.out.println("esperado - Refeição liberada. Saldo esperado = 1.10, atual = " + meuCartao2.emitirSaldo());
         } else {
           System.out.println("erro - Refeição recusada (deveria permitir para isentos)");
+        }
+                
+        meuCartao2.alterarIsencao(false);
+        Boolean resultado = meuCartao2.fazerRefeicao();
+        if(resultado){
+          System.out.println("esperado - Refeição liberada. Saldo esperado = 0.0, atual = " + meuCartao2.emitirSaldo());
+        } else {
+          System.out.println("erro - Refeição recusada.");
         }        
 
 
