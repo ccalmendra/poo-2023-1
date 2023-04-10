@@ -38,7 +38,7 @@ Veja as seções 14.1, 14.2 e 14.3 da Apostila de Java da Alura (https://www.cae
 
 ## Exemplo de execução 
 
-**TAREFA**: Implementar uma classe Conta que atenda os requisitos, conforme o diagrama e o código de teste abaixo.
+**TAREFA**: Implementar uma classe ContaComExtrato que atenda os requisitos, conforme o diagrama e o código de teste abaixo.
 
 ```java
 public class Runner {
