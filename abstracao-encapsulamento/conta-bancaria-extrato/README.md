@@ -32,9 +32,9 @@ básicas de uma conta bancária com extrato.
 ![Diagrama UML](conta-bancaria-extrato.png)
 
 
-## Criando sua primeira classe em Java 
+## Usando arrays em Java 
 
-Veja as seções 4.2 a 4.6 da Apostila de Java da Alura (https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf)
+Veja as seções 14.1, 14.2 e 14.3 da Apostila de Java da Alura (https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf)
 
 ## Exemplo de execução 
 
