@@ -29,7 +29,7 @@ básicas de uma conta bancária com extrato.
   - O extrato precisa aceitar apenas 20 registros
 
 ## Diagrama
-![Diagrama UML](contabancaria.png)
+![Diagrama UML](conta-bancaria-extrato.png)
 
 
 ## Criando sua primeira classe em Java 
