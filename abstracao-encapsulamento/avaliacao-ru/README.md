@@ -89,6 +89,7 @@ public class Runner {
         System.out.println("esperado = 0.0, atual = " + controlador.getMediaAvaliacoesPorTurno("almoco"));
         System.out.println("esperado = 0.0, atual = " + controlador.getMediaAvaliacoesPorTurno("jantar"));
         System.out.println("esperado = 0.0, atual = " + controlador.getMediaAvaliacoesPorData("02/04/2023"));
+        System.out.println("esperado = , atual = " + controlador.getTodosComentarios());
 
         // adicionar validos
         if(controlador.adicionarAvaliacao(avaliacao1) == false){
@@ -130,6 +131,8 @@ public class Runner {
         System.out.println("esperado = 4.0, atual = " + controlador.getMediaAvaliacoesPorTurno("jantar"));
         System.out.println("esperado = 3.66, atual = " + controlador.getMediaAvaliacoesPorData("02/04/2023"));
         System.out.println("esperado = 0.0, atual = " + controlador.getMediaAvaliacoesPorData("05/04/2023"));
+        System.out.println("deve imprimir 3 comentarios:\n atual = " + controlador.getTodosComentarios());
+
 
     }
 }
