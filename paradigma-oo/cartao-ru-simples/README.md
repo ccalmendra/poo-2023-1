@@ -71,7 +71,7 @@ public class Runner {
         
         meuCartao2.recarregar(1.10);
         
-        Boolean resultado = meuCartao2.fazerRefeicao();
+        resultado = meuCartao2.fazerRefeicao();
         if(resultado){
           System.out.println("esperado - Refeição liberada. Saldo esperado = 1.10, atual = " + meuCartao2.emitirSaldo());
         } else {
@@ -79,7 +79,7 @@ public class Runner {
         }
                 
         meuCartao2.alterarIsencao(false);
-        Boolean resultado = meuCartao2.fazerRefeicao();
+        resultado = meuCartao2.fazerRefeicao();
         if(resultado){
           System.out.println("esperado - Refeição liberada. Saldo esperado = 0.0, atual = " + meuCartao2.emitirSaldo());
         } else {
