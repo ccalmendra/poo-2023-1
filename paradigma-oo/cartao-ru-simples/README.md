@@ -14,8 +14,8 @@ básicas de um cartão do RU.
   - O cartão precisa aceitar operações de Recarga, Lançar Refeição, e emitir saldo atual
 - Inicialização
   - O saldo inicial deve ser 0.00
-  - Cartão precisa de um número de identificação, e número do SIAPE do discente, e a informação se o discente possui isenção ou não.
-  - SIAPE não pode ser modificado apos criação do cartão
+  - Cartão precisa de um número de identificação, e número do matrícula do discente, e a informação se o discente possui isenção ou não.
+  - Matrícula não pode ser modificada apos criação do cartão
   - A condição de isenção pode ser modificada
 - Fazer Refeição
   - Não deve ser possível deixar um saldo negativo
