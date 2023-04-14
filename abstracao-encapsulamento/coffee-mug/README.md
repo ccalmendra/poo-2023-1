@@ -1,7 +1,7 @@
 # Exemplo lúdico sobre abstração e encapsulamento
 
 ## Caneca à venda
-![Foto](coffee-mug.jpg)
+![Foto](coffeemug.jpg)
 
 
 ## Análise do código
