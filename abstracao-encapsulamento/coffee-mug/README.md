@@ -47,9 +47,9 @@ Há dois métodos para preencher e consumir a bebida da caneca. Imaginando que s
 CoffeeMug coffeeMug = new CoffeeMug();
 
 if (coffeeMug.empty()) {
-	coffeeMug.refill(new Coffee("150ml"));
+  coffeeMug.refill(new Coffee("150ml"));
 } else {
-	Coffee sip = coffeeMug.drink();
+  Coffee sip = coffeeMug.drink();
 }
 
 //mycoffee
