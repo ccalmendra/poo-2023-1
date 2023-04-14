@@ -53,10 +53,10 @@ public class Runner {
             System.out.println("esperado = Saque não autorizado");
         }
 
-        minhaConta.depositar(500);
+        minhaConta.depositar(500.0);
         System.out.println("saldo esperado = 550, atual = " + minhaConta.emitirSaldo()); 
 
-        if(minhaConta.sacar(150)){
+        if(minhaConta.sacar(150.0)){
             System.out.println("esperado = Saque autorizado"); 
         } else {
             System.out.println("erro = Saque não autorizado"); 
@@ -71,7 +71,7 @@ public class Runner {
             System.out.println("esperado = Saque não autorizado"); 
         }
 
-        minhaConta.depositar(50);
+        minhaConta.depositar(50.0);
         System.out.println("saldo esperado = 400, atual = " + minhaConta.emitirSaldo());
     }
 }
