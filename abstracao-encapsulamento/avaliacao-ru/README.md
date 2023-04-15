@@ -47,7 +47,7 @@ public class Runner {
 
     public static void main(final String[] args) {
 
-        ControladorAvalicoes controlador = new ControladorAvalicoes();
+        ControladorAvaliacoes controlador = new ControladorAvaliacoes();
 
         AvaliacaoRU avaliacao0 = new AvaliacaoRU("01/04/2023", "almoco", "animal", 0, "");// invalida
         AvaliacaoRU avaliacao1 = new AvaliacaoRU("01/04/2023", "almoco", "animal", 3, "");
