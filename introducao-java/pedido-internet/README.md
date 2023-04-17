@@ -1,7 +1,7 @@
 # Pedido via Internet
 
 A ideia desta atividade é que você seja capaz de implementar as funcionalidades
-básicas de um pedido pela internet.
+básicas de um pedido pela internet. **Atenção para a nova tarefa de inserir testes no Runner**.
 
 - [Requisitos](#requisitos)
 - [Diagrama](#diagrama)
@@ -39,9 +39,11 @@ Veja as seções 14.1, 14.2 e 14.3 da Apostila de Java da Alura (https://www.cae
 
 Veja como usar String e fazer comparações na seção 13.6 da Apostila de Java da Alura (https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf)
 
-## Exemplo de execução 
+## Tarefas
 
-**TAREFA**: Implementar as classes Pedido e ItemDePedido que atenda os requisitos, conforme o diagrama e o código de teste abaixo.
+**TAREFA 1**: Implementar as classes Pedido e ItemDePedido que atenda os requisitos, conforme o diagrama e o código de teste abaixo.
+
+**TAREFA 2**: Implementar um novo teste dentro do Runner de acordo com o comentário ao final.
 
 ```java
 public class Runner {
@@ -58,6 +60,7 @@ public class Runner {
         
         Pedido p1 = new Pedido("0000123", "Belem", "PA");
         p1.adicionarItem("101010", "Pendrive", 2, 0.100, 39.90);
+        p1.adicionarItem("", "Mouse", 1, 0.200, 10.90); // invalido
         System.out.println("05 valor esperado = 79.8, atual = " + p1.getValorTotal());
         System.out.println("06 frete esperado = 4.0, atual = " + p1.getValorFrete());
 
@@ -67,6 +70,11 @@ public class Runner {
         p2.adicionarItem("111100", "Kit Teclado/Mouse Developer", 1, 0.5, 239.90);
         System.out.println("08 frete esperado = 0.0, atual = " + p2.getValorFrete());
 
+        //Elabore uma sequencia de instruções para criar um pedido para envio ao estado
+        //de Santa Catarina (SC), com valor dos itens abaixo de R$ 1.000,00
+        
+        //Pedido p3 ...
+ 
     }
 }
 ```
