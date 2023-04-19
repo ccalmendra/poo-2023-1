@@ -6,6 +6,8 @@ A ideia desta atividade é que você seja capaz de implementar as funcionalidade
 - [Diagrama](#diagrama)
 - [Tarefa](#tarefa)
 
+## Requisitos
+
 - Cliente
   - Um cliente é identificado por CPF e telefone
 - Sessão de cinema
