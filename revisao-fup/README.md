@@ -21,24 +21,23 @@ O que vocês já sabem (ou deveriam saber) usar para construir um programa usand
 
 ## Atividades
 
-Fundamentos de Programação
 - Revisão de FUP em Java
-	- Revise os fundamentos de programação em Java
-	- Resolva os exercícios usando funções estáticas
-	- Sintaxe de Java é semelhante a C
-	- Serve de revisão e ambientação em Java
+  - Revise os fundamentos de programação em Java
+  - Resolva os exercícios usando funções estáticas
+  - Sintaxe de Java é semelhante a C
+  - Serve de revisão e ambientação em Java
 - Ambiente necessário
-	- Editor de textos (Notepad++, ...)
-	- Oracle JDK ou Open JDK instalado
-	- Acesso a terminal (no Windows, prefira Power Shell)
+  - Editor de textos (Notepad++, ...)
+  - Oracle JDK ou Open JDK instalado
+  - Acesso a terminal (no Windows, prefira Power Shell)
 - Roteiro de revisão
-	- Apostila Alura (https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf)
-	- Seção 2 – Como compilar e executar
-		- Exercícios: 2.14 e 2.17
-	- Seção 3 – Variáveis primitivas e controle de fluxo
-		- Exercícios: 3.3 e 3.13
-	- Seção 17 – Entrada e saída de dados (só 17.4 até 17.6)
-		- Exercícios: 3.13.7 (mas recebendo a variável ‘x’ via teclado)
-	- **Dicas**
-		- Leia a apostila e DIGITE os exemplos de código no seu computador
-		- Evite apenas copiar e colar
+  - Apostila Alura (https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf)
+  - Seção 2 – Como compilar e executar
+    - Exercícios: 2.14 e 2.17
+  - Seção 3 – Variáveis primitivas e controle de fluxo
+   - Exercícios: 3.3 e 3.13
+  - Seção 17 – Entrada e saída de dados (só 17.4 até 17.6)
+	- Exercícios: 3.13.7 (mas recebendo a variável ‘x’ via teclado)
+- **Dicas**
+  - Leia a apostila e DIGITE os exemplos de código no seu computador
+  - Evite apenas copiar e colar
