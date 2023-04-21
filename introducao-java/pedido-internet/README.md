@@ -64,7 +64,7 @@ public class Runner {
         System.out.println("05 valor esperado = 79.8, atual = " + p1.getValorTotal());
         System.out.println("06 frete esperado = 4.0, atual = " + p1.getValorFrete());
 
-        Pedido p2 = new Venda("0000456", "Palmas", "TO");
+        Pedido p2 = new Pedido("0000456", "Palmas", "TO");
         p2.adicionarItem("100100", "Impressora", 1, 2.950, 825.90);
         System.out.println("07 frete esperado = 73.75, atual = " + p2.getValorFrete());
         p2.adicionarItem("111100", "Kit Teclado/Mouse Developer", 1, 0.5, 239.90);
