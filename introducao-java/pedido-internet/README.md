@@ -54,9 +54,9 @@ public class Runner {
         System.out.println("01 valor esperado = 79.8, atual = " + item1.getValorTotal());
         System.out.println("02 peso esperado = 0.2, atual = " + item1.getPesoTotal());
 
-        ItemDePedido item2 = new ItemDePedido("100100", "Impressora", 1, 2.950, 825.90);
+        ItemDePedido item2 = new ItemDePedido("100100", "Impressora", 1, 2950.0, 825.90);
         System.out.println("03 valor esperado = 825.90, atual = " + item2.getValorTotal());
-        System.out.println("04 peso esperado = 2.95, atual = " + item2.getPesoTotal());
+        System.out.println("04 peso esperado = 2950.00, atual = " + item2.getPesoTotal());
         
         Pedido p1 = new Pedido("0000123", "Belem", "PA");
         p1.adicionarItem("101010", "Pendrive", 2, 0.100, 39.90);
@@ -65,7 +65,7 @@ public class Runner {
         System.out.println("06 frete esperado = 4.0, atual = " + p1.getValorFrete());
 
         Pedido p2 = new Pedido("0000456", "Palmas", "TO");
-        p2.adicionarItem("100100", "Impressora", 1, 2.950, 825.90);
+        p2.adicionarItem("100100", "Impressora", 1, 2950.0, 825.90);
         System.out.println("07 frete esperado = 73.75, atual = " + p2.getValorFrete());
         p2.adicionarItem("111100", "Kit Teclado/Mouse Developer", 1, 0.5, 239.90);
         System.out.println("08 frete esperado = 0.0, atual = " + p2.getValorFrete());
