@@ -1,5 +1,9 @@
 # Conta Bancária Com Extrato
 
+[Vídeo da solução](https://www.youtube.com/watch?v=4FqKNbvlWW0)
+
+[Solução](https://replit.com/@camiloalmendra1/POO2023#conta-extrato/ContaComExtrato.java)
+
 A ideia desta atividade é que você seja capaz de implementar as funcionalidades
 básicas de uma conta bancária com extrato.
 
