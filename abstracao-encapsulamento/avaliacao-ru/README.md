@@ -1,6 +1,7 @@
 # Sistema de Avaliação do RU
 
 [Vídeo da solução](https://www.youtube.com/watch?v=qHeVDBt-OhA)
+
 [Solução](https://onlinegdb.com/Vs2HdxRgx)
 
 A ideia desta atividade é que você seja capaz de implementar as funcionalidades
