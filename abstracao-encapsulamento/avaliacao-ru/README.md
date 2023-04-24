@@ -1,5 +1,7 @@
 # Sistema de Avaliação do RU
 
+(Solução)[https://onlinegdb.com/Vs2HdxRgx]
+
 A ideia desta atividade é que você seja capaz de implementar as funcionalidades
 básicas de um sistema de avaliação do Restaurante Universitário.
 
