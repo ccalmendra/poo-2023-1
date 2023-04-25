@@ -68,7 +68,7 @@ public class Runner {
                   + "111100 Cream Cracker 1.0 PC 6.95 6.95\n"  
                   + "Valor total 20.141\n"
                   + "Nota fiscal 0000123\n"
-                  + "atual = " + v1.imprimir());
+                  + "atual = \n" + v1.imprimir());
 
         Venda v2 = new Venda("0000456");
         // nao deve aceitar nenhum das inclusoes abaixo
