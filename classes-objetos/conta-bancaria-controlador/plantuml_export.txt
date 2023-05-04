@@ -1,0 +1,29 @@
+@startuml
+
+class ContaComExtrato {
+  String codigo
+  Double saldo
+  Double limite
+  Double[] extrato
+  public ContaComExtrato(String codigoConta, Double saldoInicial)
+  public void alterarLimite(Double novoLimite)
+  public Double emitirSaldo()
+  public void depositar(Double valor)
+  public Boolean sacar(Double valor)
+  public Double[] emitirExtrato()
+  public String getCodigo()
+}
+
+class ControladorContas {
+  ContaComExtrato[] contas
+  public Boolean cadastrarConta(String codigoConta, Double saldoInicial)
+  public Boolean realizarSaque(String codigoConta, Double valor)
+  public Boolean realizarDeposito(String codigoConta, Double valor)
+  public Boolean realizarTransferencia(String contaOrigem, String contaDestino, Double valor)
+  public Double emitirSaldo(String codigo)
+  private ContaComExtrato buscarConta(String codigo)
+}
+
+ControladorContas -right-> ContaComExtrato: contas
+
+@enduml

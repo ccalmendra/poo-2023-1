@@ -1,0 +1,16 @@
+@startuml
+
+class ContaComExtrato {
+  +Integer codigo
+  +Double saldo
+  +Double limite
+  +Double[] extrato
+  +Conta(Integer codigoConta, Double saldoInicial)
+  +void alterarLimite(Double novoLimite)
+  +Double emitirSaldo()
+  +void depositar(Double valor)
+  +Boolean sacar(Double valor)
+  +Double[] emitirExtrato()
+}
+
+@enduml

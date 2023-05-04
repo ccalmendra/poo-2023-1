@@ -1,0 +1,21 @@
+@startuml
+
+
+
+
+
+
+class CartaoRU{
+  +String idCartao
+  +String siapeDiscente
+  +Boolean isencao
+  +Double saldo
+  +CartaoRU(idCartao, siapeDiscente, isencao)
+  +void recarregar(Double valor)
+  +Boolean fazerRefeicao()
+  +Double emitirSaldo()
+  +void alterarIsencao(Boolean isencao)
+}
+
+
+@enduml

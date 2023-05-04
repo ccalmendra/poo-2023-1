@@ -1,0 +1,25 @@
+@startuml
+
+class AvaliacaoRU {
+  +Identifique os atributos necessários
+  +Avaliacao(String data, String turno, String proteina, Integer nota, String comentario)
+  +String getData()
+  +String getTurno()
+  +String getProteina()
+  +Integer getNota()
+  +String getComentario()
+}
+
+class ControladorAvaliacoes{
+  +AvaliacaoRU[] avaliacoes
+  +Boolean adicionarAvaliacao(AvaliacaoRU novaAvaliacao)
+  +Double getMediaAvaliacoes()
+  +Double getMediaAvaliacoesPorProteina(String proteina)
+  +Double getMediaAvaliacoesPorTurno(String turno)
+  +Double getMediaAvaliacoesPorData(String data)
+  +String getTodosComentarios()
+}
+
+ControladorAvaliacoes --> AvaliacaoRU: AvaliacaoRU[] avaliacoes
+
+@enduml

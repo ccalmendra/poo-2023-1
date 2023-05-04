@@ -1,0 +1,25 @@
+@startuml
+
+class ItemDeVenda {
+  +String codigo
+  +String descricao
+  +Double quantidade
+  +String unidade
+  +Double valorUnitario
+  +ItemDeVenda(String codigo, String descricao, Double quantidade, String unidade, Double valorUnitario)
+  +String imprimir()
+  +Double getValorTotal()
+}
+
+class Venda{
+  +ItemDeVenda[] items
+  +String numeroNotaFiscal
+  +Venda(String numeroNotaFiscal)
+  +void adicionarItem(String codigo, String descricao, Double quantidade, String unidade, Double valorUnitario)
+  +Double getValorTotal()
+  +String imprimir()
+}
+
+Venda -right-> ItemDeVenda: items
+
+@enduml

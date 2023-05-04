@@ -1,0 +1,27 @@
+@startuml
+
+class ItemDePedido {
+  +String codigo
+  +String descricao
+  +Integer quantidade
+  +Double peso
+  +Double valorUnitario
+  +ItemDePedido(String codigo, String descricao, Integer quantidade, Double peso, Double valorUnitario)
+  +Double getValorTotal()
+  +Double getPesoTotal()
+}
+
+class Pedido{
+  +ItemDePedido[] items
+  +String numeroPedido
+  +String cidade
+  +String estado
+  +Pedido(String numeroPedido, String cidade, String estado)
+  +String adicionarItem(String codigo, String descricao, Integer quantidade, Double peso, Double valorUnitario)
+  +Double getValorTotal()
+  +Double getValorFrete()
+}
+
+Pedido -down-> ItemDePedido: items
+
+@enduml

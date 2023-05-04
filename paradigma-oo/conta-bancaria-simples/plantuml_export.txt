@@ -1,0 +1,21 @@
+@startuml
+
+
+
+
+
+
+class Conta {
+  +Integer codigo
+  +Double saldo
+  +Double limite
+  +Conta(Integer codigoConta, Double saldoInicial)
+  +void alterarLimite(Double novoLimite)
+  +Double emitirSaldo()
+  +void depositar(Double valor)
+  +Boolean sacar(Double valor)
+  
+}
+
+
+@enduml
