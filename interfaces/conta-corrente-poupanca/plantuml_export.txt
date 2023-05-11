@@ -1,0 +1,55 @@
+@startuml
+
+class Cliente {
+  String cpf
+  String telefone
+  __
+  + Cliente(String cpf, String telefone)
+  __
+  + String getCpf()
+  + String getTelefone()
+}
+
+class SessaoCinema {
+  
+  String data
+  String horario
+  String filme
+  Cliente[] assentos
+  __
+  public SessaoCinema(String data, String horario, String filme, Integer capacidade)
+  __
+  Boolean reservar(Cliente c, Integer assento)
+  void cancelar(String cpf)
+  String getMapaReservas()
+}
+
+note left of SessaoCinema::assentos
+Se estiver null, o assento está livre.
+Se estiver preenchido com um objeto Cliente,
+está reservado
+end note
+
+note left of SessaoCinema::reservar
+Só aceita a reserva se o assento
+estiver livre
+end note
+
+note left of SessaoCinema::cancelarReserva
+Usa o cpf para encontrar o assento 
+do cliente e liberar a reserva
+end note
+
+note left of SessaoCinema::getMapaReservas
+Exemplo de retorno:
+"A Senhora das Funções - 27/04/2023 - 20:00
+1 = livre
+2 = livre
+3 = 123.456.789-00, 88 99999-0001
+4 = 456.789.123-00, 88 98888-0002
+..."
+end note
+
+SessaoCinema -down-> Cliente: assentos
+
+@enduml
