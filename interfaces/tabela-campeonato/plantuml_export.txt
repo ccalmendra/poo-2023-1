@@ -1,0 +1,1 @@
+@startumlclass Participante {  public Participante(String nome)  public addVitoria(Integer v)  public addEmpate(Integer e)  public addDerrota(Integer d)  public addGolsAFavor(Integer g)  public addGolsContra(Integer g)  public String getresumo()  public int compareTo(Participante outro)}Participante -right-|> java.lang.Comparable: implements@enduml
