@@ -1,14 +1,6 @@
 # Controlador de Contas Corrente e Poupança
 
-- forma distinta de guardar poupança
-- 
-
-# Tabela de Campeonato
-- comparable
-
-
-
-A ideia desta atividade é que você seja capaz de implementar as funcionalidades de um sistema de reserva de assentos para uma sessão de cinema. 
+A ideia desta atividade é que você seja capaz de implementar as funcionalidades básicas de um controlador de contas bancárias.
 
 - [Requisitos](#requisitos)
 - [Diagrama](#diagrama)
