@@ -52,3 +52,6 @@ public class Runner {
     }
 }
 ```
+## Solução (incompleta)
+
+[Solução](solucao/) Apenas o primeiro critério de desempate foi implementado, termine de implementar o requisito completo.
