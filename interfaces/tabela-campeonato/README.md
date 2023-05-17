@@ -5,6 +5,7 @@ A ideia desta atividade é que você seja capaz de implementar uma classe que im
 - [Requisitos](#requisitos)
 - [Diagrama](#diagrama)
 - [Tarefa](#tarefa)
+- [Solução](#solução)
 
 ## Requisitos
 
@@ -52,6 +53,6 @@ public class Runner {
     }
 }
 ```
-## Solução (incompleta)
+## Solução
 
-[Solução](solucao/) Apenas o primeiro critério de desempate foi implementado, termine de implementar o requisito completo.
+[Solução](solucao/) Está incompleta pois apenas o primeiro critério de desempate foi implementado, termine de implementar o requisito completo.
