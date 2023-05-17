@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class ControladorContas {
 
-  //private Conta[] contas;
   private List<Conta> contas;
 
   public ControladorContas() {
