@@ -1,0 +1,31 @@
+@startuml
+
+class Conta {
+  public void alterarLimite(Double novoLimite)
+  public Double emitirSaldo()
+  public void depositar(Double valor)
+  public Boolean sacar(Double valor)
+  public List<Double> emitirExtrato()
+  public String getCodigo()
+}
+
+class ControladorContas {
+  private List<Conta> contas
+  public Boolean cadastrarContaCorrente(String codigo, Double saldoInicial)
+  public Boolean cadastrarContaPoupanca(String codigo, Double saldoInicial)
+  public Boolean realizarSaque(String origem, Double valor)
+  public Boolean realizarDeposito(String destino, Double valor)
+  public Boolean realizarTransferencia(String origem, String destino, Double valor)
+  public Double emitirSaldo(String codigo)
+  private Conta buscarConta(String codigo)
+}
+
+class ContaPoupanca{
+  public ContaPoupanca(String codigo, Double saldoInicial)
+}
+
+ControladorContas -right-> Conta: List<Conta> contas
+ContaPoupanca --up|> Conta: <<extends>>
+
+
+@enduml
