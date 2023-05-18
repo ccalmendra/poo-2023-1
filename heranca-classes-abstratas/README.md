@@ -1,16 +1,16 @@
-### Exercícios sobre herança e classes abstratas
+## Exercícios sobre herança e classes abstratas
 
-## Organização de sub-classes usando herança
+### Organização de sub-classes usando herança
 
-(Controlador de Contas Corrente e Poupança (usando herança))[conta-corrente-poupanca/]
+[Controlador de Contas Corrente e Poupança (usando herança)](conta-corrente-poupanca/)
 
-## Novo requisito implementado através de sub-classe
+### Novo requisito implementado através de sub-classe
 
-(Controlador de Contas com Auditoria)[controlador-conta-auditoria/]
+[Controlador de Contas com Auditoria](/controlador-conta-auditoria/)
 
-## Sobrecarga de método para reusar recursos de `Object` e de coleções
+### Sobrecarga de método para reusar recursos de `Object` e de coleções
 
-1. No exercício (Tabela de Campeonato)[../interfaces/tabela-campeonato/], remova o método `getResumo()` da classe `Participante` e sobrecarregue o método `toString()` para implementar a mesma funcionalidade (fornecer um resumo do participante).
+1. No exercício [Tabela de Campeonato](../interfaces/tabela-campeonato/), remova o método `getResumo()` da classe `Participante` e sobrecarregue o método `toString()` para implementar a mesma funcionalidade (fornecer um resumo do participante).
  - Leia: https://docs.oracle.com/en/java/javase/20/docs/api/java.base/java/lang/Object.html#toString()
  - Leia: seção 13.4 da apostila da Alura
 
