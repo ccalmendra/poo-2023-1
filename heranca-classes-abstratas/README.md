@@ -25,6 +25,6 @@
 	}
 ```
 
-	- Leia: https://docs.oracle.com/en/java/javase/20/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)
-	- Leia: https://docs.oracle.com/en/java/javase/20/docs/api/java.base/java/util/Collection.html#contains(java.lang.Object)
-	- Leia: seção 13.4 da apostila da Alura
+- Leia: https://docs.oracle.com/en/java/javase/20/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)
+- Leia: https://docs.oracle.com/en/java/javase/20/docs/api/java.base/java/util/Collection.html#contains(java.lang.Object)
+- Leia: seção 13.4 da apostila da Alura
