@@ -6,7 +6,7 @@
 
 ### Novo requisito implementado através de sub-classe
 
-[Controlador de Contas com Auditoria](/controlador-conta-auditoria/)
+[Controlador de Contas com Auditoria](controlador-conta-auditoria/)
 
 ### Sobrecarga de método para reusar recursos de `Object` e de coleções
 
