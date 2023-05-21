@@ -27,10 +27,9 @@ Veja as seções 15.11 da Apostila de Java da Alura (https://www.caelum.com.br/a
 
 **T1**: Implemente um Runner de acordo com os requisitos.
 
-	- Dica: use com base o Runner do exercício [Reserva em Sessão de Cinema](../../classes-objetos/sessa-cinema/)
+ - Dica: use como base o Runner do exercício [Reserva em Sessão de Cinema](../../classes-objetos/sessa-cinema/)
 
 **T2**: Implemente os requisitos.
 
-	- Dica 1: use um mapa com a chave sendo código do assento e o valor sendo o objeto do cliente
-	- Dica 2: crie uma coleção de códigos de assento válidos para guardar quais estão disponíveis em cada sessão
-	- Dica
+ - Dica 1: use um mapa com a chave sendo código do assento e o valor sendo o objeto do cliente
+ - Dica 2: crie uma coleção de códigos de assento válidos para guardar o mapa completo da sala

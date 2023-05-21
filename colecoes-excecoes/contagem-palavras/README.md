@@ -24,9 +24,9 @@ fator diferencial.
 ```
 - Saída esperada (primeiras 11 linhas)
 ```
-objetos	5
-programação	5
-aprendizado	3
+objetos 5
+programação 5
+aprendizado 3
 através 3
 aplicação 2
 conjunto 2
@@ -46,7 +46,7 @@ Veja a seção 17.3 (exemplo de código na página 239) da Apostila de Java da A
 
 **T1**: Implemente os requisitos.
 
-	- Dica 1: prepare 2 ou 3 arquivos de teste, e construa um Runner simples que chama o objeto principal para cada arquivo
-	- Dica 2: veja o exercício 4 da seção 23.21 (p. 358) com um exemplo de uso da função `split`. Separe as strings lidas do arquivo usando o espaço `" "` como separador.
-	- Dica 3: veja o exercício 3 da seção 23.15 (p. 339-340) com um exemplo de uso da função `replaceAll`. Substitua todas as pontuações possíveis (.,;:?!-) por espaço. Faça isso antes de separar as palavras.
-	- Dica 4: procure na internet sobre soluções em Java para contar a frequencia de repetições de objetos em uma coleção.
+- Dica 1: prepare 2 ou 3 arquivos de teste, e construa um Runner simples que chama o objeto principal para cada arquivo
+- Dica 2: veja o exercício 4 da seção 23.21 (p. 358) com um exemplo de uso da função `split`. Separe as strings lidas do arquivo usando o espaço `" "` como separador.
+- Dica 3: veja o exercício 3 da seção 23.15 (p. 339-340) com um exemplo de uso da função `replaceAll`. Substitua todas as pontuações possíveis (.,;:?!-) por espaço. Faça isso antes de separar as palavras.
+- Dica 4: procure na internet sobre soluções em Java para contar a frequencia de repetições de objetos em uma coleção.
