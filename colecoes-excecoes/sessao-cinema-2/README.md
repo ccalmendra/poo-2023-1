@@ -27,7 +27,7 @@ Veja as seções 15.11 da Apostila de Java da Alura (https://www.caelum.com.br/a
 
 **T1**: Implemente um Runner de acordo com os requisitos.
 
- - Dica: use como base o Runner do exercício [Reserva em Sessão de Cinema](../../classes-objetos/sessa-cinema/)
+ - Dica: use como base o Runner do exercício [Reserva em Sessão de Cinema](../../classes-objetos/sessao-cinema/)
 
 **T2**: Implemente os requisitos.
 
