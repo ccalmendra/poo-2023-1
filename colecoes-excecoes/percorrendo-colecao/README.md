@@ -32,6 +32,7 @@ public class Runner {
 ## Tarefa
 
 **T1**: Calcule o saldo TOTAL das contas corrente
+
 **T2**: Calcule o saldo MÉDIO das contas poupança
 
 ### Descobrindo o subtipo de um objeto
