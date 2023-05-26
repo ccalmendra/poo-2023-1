@@ -32,13 +32,15 @@ public class Runner {
 ## Tarefa
 
 **T1**: Calcule o saldo TOTAL das contas corrente
+ - Dica: você precisa somar todos os saldos de objetos `Conta` que seja instâncias de `ContaCorrente`
 
 **T2**: Calcule o saldo MÉDIO das contas poupança
+ - Dica: você precisa somar todos os saldos de objetos `Conta` que seja instâncias de `ContaPoupanca`, e dividir pela quantidade de contas poupança
 
 ### Descobrindo o subtipo de um objeto
 
-The instanceof Operator (https://docs.oracle.com/javase/specs/jls/se20/html/jls-15.html#jls-15.20.2)
+LEIA: The instanceof Operator (https://docs.oracle.com/javase/specs/jls/se20/html/jls-15.html#jls-15.20.2)
 
 ### Usando o laço "enhanced for" (também chamado "foreach")
 
-Veja a seção 15.9 da Apostila de Java da Alura (https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf)
+LEIA: Seção 15.9 da Apostila de Java da Alura (https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf)
