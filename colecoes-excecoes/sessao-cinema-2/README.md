@@ -21,7 +21,7 @@ A ideia desta atividade é que você seja capaz de implementar as funcionalidade
 
 ## Usando Mapas em Java 
 
-Veja as seções 15.11 da Apostila de Java da Alura (https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf)
+LEIA: Seções 15.11 da Apostila de Java da Alura (https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf)
 
 ## Tarefa
 
@@ -32,4 +32,4 @@ Veja as seções 15.11 da Apostila de Java da Alura (https://www.caelum.com.br/a
 **T2**: Implemente os requisitos.
 
  - Dica 1: use um mapa com a chave sendo código do assento e o valor sendo o objeto do cliente
- - Dica 2: crie uma coleção de códigos de assento válidos para guardar o mapa completo da sala
+ - Dica 2: crie uma coleção (set ou list) de códigos de assento válidos para guardar o mapa completo da sala
