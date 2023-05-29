@@ -9,7 +9,7 @@ A ideia desta atividade é que você seja capaz de implementar as funcionalidade
 
 ## Requisitos
 
-- Considere os mesmos requisitos de exercício anterior de herança [](../conta-corrente-poupanca/)
+- Considere os mesmos requisitos de exercício anterior de herança [../conta-corrente-poupanca/](../conta-corrente-poupanca/)
 - Controlador com auditoria
   - A nova subclasse deve logar os horários das operações de saque, depósito e transferência
   - O log deve ser exibido na saída padrão (System.out)
@@ -21,5 +21,5 @@ A ideia desta atividade é que você seja capaz de implementar as funcionalidade
 
 ## Tarefa
 
-**T1**: Implementar as classes e interface do diagrama, atendendo os requisitos. Construa seu runner, use como base a solução do exercício em [](../conta-corrente-poupanca/)
+**T1**: Implementar as classes e interface do diagrama, atendendo os requisitos. Construa seu runner, use como base a solução do exercício em [../conta-corrente-poupanca/](../conta-corrente-poupanca/)
 
