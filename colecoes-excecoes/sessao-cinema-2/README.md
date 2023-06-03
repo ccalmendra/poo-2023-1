@@ -12,7 +12,7 @@ A ideia desta atividade é que você seja capaz de implementar as funcionalidade
 - Cada assento é identificado por um código contendo a fila (letra) e coluna (número)
   - Algumas combinações não existem, por exemplo A04, K15, A19.
   - O sistema deve rejeitar reservas para combinações não existentes
-- Se um assentos está livre, cliente pode reservá-lo
+- Se um dos assentos está livre, cliente pode reservá-lo
   - Cliente pode desistir da reserva, deixando o assento livre novamente
   - Cliente não pode fazer duas reservas para mesma sessão
 - O sistema deve listar o mapa de assentos já reservados em ordem alfabética e indicar os dados do cliente
