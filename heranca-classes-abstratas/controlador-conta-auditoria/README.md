@@ -5,7 +5,6 @@ A ideia desta atividade é que você seja capaz de implementar as funcionalidade
 - [Requisitos](#requisitos)
 - [Diagrama](#diagrama)
 - [Tarefa](#tarefa)
-- [Solução](#solução)
 
 ## Requisitos
 
@@ -18,6 +17,10 @@ A ideia desta atividade é que você seja capaz de implementar as funcionalidade
 
 ## Diagrama
 ![Diagrama UML](controlador-contas-auditoria.png)
+
+## Leituras
+- Leia: https://docs.oracle.com/javase/specs/jls/se20/html/jls-15.html#jls-15.11.2
+- Leia: https://docs.oracle.com/en/java/javase/20/docs/api/java.base/java/time/LocalDateTime.html#now()
 
 ## Tarefa
 
