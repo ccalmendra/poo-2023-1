@@ -11,7 +11,8 @@ public class ControladorContasAuditoria extends ControladorContas {
 							"] com valor R$ " + valor +
 							" foi autorizado");
 		} else {
-			System.out.println(LocalDateTime.now() +" saque da conta [" + codigo + 
+			System.out.println(LocalDateTime.now() +
+							" saque da conta [" + codigo + 
 							"] com valor R$ " + valor +
 							" NAO foi autorizado");
 		}
