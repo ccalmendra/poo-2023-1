@@ -41,6 +41,7 @@ public class Runner {
           }
         } catch(ContaNaoEncontradaException excecao){
            System.out.println(excecao.getMessage()); 
+           excecao.printStackTrace();
        }
 
         if (controlador.realizarTransferencia("1111","2222",40.0) == true){
